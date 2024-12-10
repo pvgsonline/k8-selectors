@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: nginx
-specs:
+spec:
   affinity:
     nodeAffinity:
       # hard ware
