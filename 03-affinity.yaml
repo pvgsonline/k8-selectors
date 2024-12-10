@@ -15,7 +15,7 @@ spec:
             - another-node-label-value
   containers:
   - name: nginx
-    image: nginx:perl-stable
+    image: nginx:stable-perl
   tolerations:
   - key: "hardware"
     operator: "Equal"
